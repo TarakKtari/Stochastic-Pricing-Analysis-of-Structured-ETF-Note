@@ -43,10 +43,6 @@ Simulates 10,000 stock price paths using **Geometric Brownian Motion (GBM)**:
 - **Time Horizon**: `T = 1.083` years (≈ 263 trading days)  
 - **Time Step**: `dt = 1/263`
 
-**GBM Formula**:
-
-```math
-S_t = S_{t-1} \cdot \exp\left[\left(\mu - \frac{1}{2} \sigma^2\right) dt + \sigma \sqrt{dt} \cdot Z\right], \quad Z \sim \mathcal{N}(0, 1)
 ### 1.4 💰 Structured Note Payoff Calculation (`structured_note_payoff`)
 
 Evaluates a structured financial product with:
